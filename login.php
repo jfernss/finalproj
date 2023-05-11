@@ -8,13 +8,13 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
    <style>
-		/* .container {
+		.container {
 			background-color: white;
 		}
       .panel {
 			background-color: #f4f4f4;
 			padding: 10px;
-		} */
+		} 
       .login-container {
         background-color: #e9ecef;
         border-radius: 10px;
