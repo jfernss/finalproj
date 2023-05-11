@@ -24,8 +24,7 @@
 	</style>
 </head>
 <body>
-
-<!-- <div class="container">
+<div class="container">
 		<div class="row">
 			<div class="col-md-4 col-md-offset-4">
 				<h2>Sign In</h2>
@@ -46,82 +45,6 @@
 				</div>
 			</div>
 		</div>
-	</div> -->
-
-  <div class="container">
-      <div class="row">
-        <div class="col-md-4 mx-auto">
-          <div class="signup-container d-flex justify-content-center">
-            <div class="card">
-              <div class="card-body d-flex justify-content-center">
-                <h5 class="card-title mb-4">Sign Up</h5>
-                <form>
-                  <div class="form-floating mb-3">
-                    <label for="firstName">First Name</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="firstName"
-                      placeholder="Enter your first name"
-                      required
-                    />
-                  </div>
-                  <div class="form-floating mb-3">
-                    <label for="lastName">Last Name</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="lastName"
-                      placeholder="Enter your last name"
-                      required
-                    />
-                  </div>
-                  <div class="form-floating mb-3">
-                    <label for="email">Email address</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="email"
-                      placeholder="Enter your email"
-                      required
-                    />
-                  </div>
-                  <div class="form-floating mb-3">
-                    <label for="password">Password</label>
-                    <input
-                      type="password"
-                      class="form-control"
-                      id="password"
-                      placeholder="Enter your password"
-                      required
-                    />
-                  </div>
-                  <div class="form-floating mb-3">
-                    <label for="confirmPassword">Confirm Password</label>
-                    <input
-                      type="password"
-                      class="form-control"
-                      id="confirmPassword"
-                      placeholder="Confirm your password"
-                      required
-                    />
-                  </div>
-                  <div class="d-grid gap-2">
-                    <button type="submit" class="btn btn-primary mb-3">
-                      Sign Up
-                    </button>
-                  </div>
-                </form>
-                <p class="card-text">
-                  Already have an account?
-                  <a href="login.html">Log in</a>
-                </p>
-               </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+	</div>
 </body>
 </html>
