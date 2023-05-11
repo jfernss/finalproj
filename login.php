@@ -25,56 +25,28 @@
 </head>
 <body>
 
-<!-- 	<div class="form-floating mb-3">
-  <label for="firstName" style="padding-bottom: 10px;">First Name</label>
-  <input
-    type="text"
-    class="form-control"
-    id="firstName"
-    placeholder="Enter your first name"
-    required
-  />
-</div>
-<div class="form-floating mb-3">
-  <label for="lastName" style="padding-bottom: 10px;">Last Name</label>
-  <input
-    type="text"
-    class="form-control"
-    id="lastName"
-    placeholder="Enter your last name"
-    required
-  />
-</div>
-<div class="form-floating mb-3">
-  <label for="email" style="padding-bottom: 10px;">Email address</label>
-  <input
-    type="email"
-    class="form-control"
-    id="email"
-    placeholder="Enter your email"
-    required
-  />
-</div>
-<div class="form-floating mb-3">
-  <label for="password" style="padding-bottom: 10px;">Password</label>
-  <input
-    type="password"
-    class="form-control"
-    id="password"
-    placeholder="Enter your password"
-    required
-  />
-</div>
-<div class="form-floating mb-3">
-  <label for="confirmPassword" style="padding-bottom: 10px;">Confirm Password</label>
-  <input
-    type="password"
-    class="form-control"
-    id="confirmPassword"
-    placeholder="Confirm your password"
-    required
-  />
-</div> -->
+<!-- <div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+				<h2>Sign In</h2>
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<form>
+							<div class="form-group">
+								<label for="username">Username:</label>
+								<input type="text" class="form-control" id="username" placeholder="Enter username">
+							</div>
+							<div class="form-group">
+								<label for="password">Password:</label>
+								<input type="password" class="form-control" id="password" placeholder="Enter password">
+							</div>
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
 
   <div class="container">
       <div class="row">
