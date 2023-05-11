@@ -37,7 +37,7 @@
       </div>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-info">New & Featured</a></li>
+        <li class="nav-item"><a href="#sectionB" class="nav-link px-2 text-info">New & Featured</a></li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-info" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Products</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -99,14 +99,14 @@
         </div>
     </div>
 
-    
+    <section id="sectionB">
     <div class="b-example-divider"></div>
 
     <div class="container-fluid mb-4 mx-4">
         <h2>NEW & FEATURED PRODUCTS</h2>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid w-100">
     <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
         <div class="carousel-inner row w-10 mx-auto" role="listbox">
             <div class="carousel-item col-md-4 active text-center">
@@ -167,7 +167,7 @@
     </div>
   </div>
 </div>
-
+</section>
 <div class="b-example-divider"></div>
 
 <footer class="text-center text-white" style="background-color: #f1f1f1;">
