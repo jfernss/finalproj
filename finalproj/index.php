@@ -57,7 +57,7 @@
     </header>
 </div>
 
-    <div class="container-fluid mx-0">
+    <div class="container-fluid">
             <div class="row">
             <div class="col-md-3 mb-1 mb-lg-0">
             <img
@@ -101,11 +101,11 @@
 
     <section id="sectionB">
     <div class="b-example-divider"></div>
-
+    
     <div class="container-fluid mb-4 mx-4">
         <h2>NEW & FEATURED PRODUCTS</h2>
     </div>
-
+   
     <div class="container-fluid w-100">
     <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
         <div class="carousel-inner row w-10 mx-auto" role="listbox">
