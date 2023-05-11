@@ -51,10 +51,75 @@
 
       <div class="col-md-2 text-right">
         <button type="button" class="btn btn-info"><span class="bi bi-cart"></span></button>
-        <button type="button" class="btn btn-outline-info me-2">Login</button>
-        <button type="button" class="btn btn-info">Sign-up</button>
+        <a href="" class="btn btn-outline-info me-2" style="text-decoration: none" data-toggle="modal" data-target="#modalLoginForm">Login</a>
+        <a href="" class="btn btn-info" style="text-decoration: none" data-toggle="modal" data-target="#modalRegisterForm">Sign-up</a>
       </div>
     </header>
+</div>
+
+<!-- log in -->
+<div class="container">
+  <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Log In</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <label data-error="wrong" data-success="right" for="defaultForm-email">Your username:</label>
+          <input type="email" id="defaultForm-email" class="form-control validate">
+        </div>
+
+        <div class="md-form mb-4">
+          <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password:</label>
+          <input type="password" id="defaultForm-pass" class="form-control validate"> 
+        </div>
+
+      </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button button class="btn btn-info">Log In</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+
+  <!-- sign up -->
+<div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Sign up</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <label data-error="wrong" data-success="right" for="orangeForm-name">Enter username: </label>
+          <input type="text" id="orangeForm-name" class="form-control validate">
+        </div>
+        <div class="md-form mb-5">
+          <label data-error="wrong" data-success="right" for="orangeForm-email">Enter email: </label>
+          <input type="email" id="orangeForm-email" class="form-control validate">
+        </div>
+
+        <div class="md-form mb-4">
+          <label data-error="wrong" data-success="right" for="orangeForm-pass">Enter password: </label>
+          <input type="password" id="orangeForm-pass" class="form-control validate">
+        </div>
+
+      </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button class="btn btn-info">Sign up</button>
+        </div>
+    </div>
+  </div>
 </div>
 
     <div class="container-fluid">
